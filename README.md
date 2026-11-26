@@ -28,6 +28,10 @@ Exact, bounded base-20,736 paths, independent namespaces and address kinds, deci
 
 Synthetic versioned dialect registry, exact rational unit conversions, strict meaning checks and unknown-value preservation. Run `node tests/semantic-conformance.mjs` (Node/Python). See [semantic membrane](docs/XPO-004.md). These invented dialects are not native upstream adapters.
 
+## XPO-005: historical replay and reconstruction
+
+Bounded exact exchange journal, singular-transition scar witness, historical snapshots, hash-linked receipts and independently checked replay. Run `node tests/journal-conformance.mjs` (Node/Python). See [continuity contract](docs/XPO-005.md). Hashes and an optional externally supplied tip are not authentication or durable storage.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -40,4 +44,4 @@ Synthetic versioned dialect registry, exact rational unit conversions, strict me
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first four reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first five reference experiments are supplied here. Subsequent stages remain proposed research directions.
