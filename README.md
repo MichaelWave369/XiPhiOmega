@@ -20,6 +20,10 @@ See [protocol](docs/XPO-001.md) and [source research map](docs/RESEARCH_MAP.md).
 
 Independent JavaScript and Python binary codecs, strict UTF-8, namespace separation and bounded decoding. Run `node tests/capsule-conformance.mjs` with Node 20+ and Python 3.10+. See [wire contract](docs/XPO-002.md). Transport is not authorization or upstream compatibility.
 
+## XPO-003: recursive addresses and identity
+
+Exact, bounded base-20,736 paths, independent namespaces and address kinds, decimal-string ordinals and separate identity locators. Node/Python conformance: `node tests/address-conformance.mjs`. See [address contract](docs/XPO-003.md). Addressability is not allocated state, topology or authority.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -32,4 +36,4 @@ Independent JavaScript and Python binary codecs, strict UTF-8, namespace separat
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first two reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first three reference experiments are supplied here. Subsequent stages remain proposed research directions.
