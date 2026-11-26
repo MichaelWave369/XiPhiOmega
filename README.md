@@ -36,6 +36,10 @@ Bounded exact exchange journal, singular-transition scar witness, historical sna
 
 Scoped Ed25519 permits for a single synthetic journal gate, revision/tip binding, expiry, duplicate nonce refusal and independent final replay. Run `node tests/authority-conformance.mjs` (Node/Python). See [authority contract](docs/XPO-006.md). No durable replay protection or production authority.
 
+## XPO-007: matched-budget topology study
+
+Seven degree-matched graphs, held-out scalar diffusion tasks, bounded adaptive rewiring and independent Python node-update verification. Run `node tests/topology-conformance.mjs`. See [experimental protocol and results](docs/XPO-007.md). Synthetic numerical work, not physical latency or general topology optimality.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -48,4 +52,4 @@ Scoped Ed25519 permits for a single synthetic journal gate, revision/tip binding
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first six reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first seven reference experiments are supplied here. Subsequent stages remain proposed research directions.
