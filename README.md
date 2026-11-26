@@ -16,6 +16,10 @@ node tests/conformance.mjs
 
 See [protocol](docs/XPO-001.md) and [source research map](docs/RESEARCH_MAP.md). Original reference code is covered by this repository's existing MIT license; upstream code and assets are not included or relicensed.
 
+## XPO-002: canonical capsule transport
+
+Independent JavaScript and Python binary codecs, strict UTF-8, namespace separation and bounded decoding. Run `node tests/capsule-conformance.mjs` with Node 20+ and Python 3.10+. See [wire contract](docs/XPO-002.md). Transport is not authorization or upstream compatibility.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -28,4 +32,4 @@ See [protocol](docs/XPO-001.md) and [source research map](docs/RESEARCH_MAP.md).
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-Only the first finite reference experiment is supplied here. Everything else remains a proposed research direction.
+The first two reference experiments are supplied here. Subsequent stages remain proposed research directions.
