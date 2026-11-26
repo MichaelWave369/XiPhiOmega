@@ -24,3 +24,5 @@ jobs:
       - run: node tests/authority-conformance.mjs
       - run: node tests/topology-conformance.mjs
       - run: node tests/interop-conformance.mjs
+      - run: openssl version
+      - run: node tests/evidence-conformance.mjs

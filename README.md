@@ -44,6 +44,10 @@ Seven degree-matched graphs, held-out scalar diffusion tasks, bounded adaptive r
 
 Python proposal producer, Node semantic/admission adapter and independent Python return verifier; exact bounded journal exchange. Run `node tests/interop-conformance.mjs`. See [exchange contract](docs/XPO-008.md). Reference environments only; native upstream integration remains unverified.
 
+## XPO-009: integrated evidence demonstration
+
+Generate with `node scripts/demonstrate.mjs xpo9-output`, then verify with `python3 scripts/verify_evidence.py xpo9-output/trust.json xpo9-output/evidence.json` (OpenSSL 3 CLI required). Separate trust configuration, signed proposal/permit bindings, independent signature and mathematical replay verification. See [evidence contract](docs/XPO-009.md). Fixture trust is not external execution attestation.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -56,4 +60,4 @@ Python proposal producer, Node semantic/admission adapter and independent Python
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first eight reference experiments are supplied here. Subsequent stages remain proposed research directions.
+All nine initial reference experiments are supplied here. Native adapters and independent maintainer reproduction remain future collaboration gates, not established results.
