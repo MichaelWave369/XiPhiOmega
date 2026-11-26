@@ -32,6 +32,10 @@ Synthetic versioned dialect registry, exact rational unit conversions, strict me
 
 Bounded exact exchange journal, singular-transition scar witness, historical snapshots, hash-linked receipts and independently checked replay. Run `node tests/journal-conformance.mjs` (Node/Python). See [continuity contract](docs/XPO-005.md). Hashes and an optional externally supplied tip are not authentication or durable storage.
 
+## XPO-006: independent execution and authority
+
+Scoped Ed25519 permits for a single synthetic journal gate, revision/tip binding, expiry, duplicate nonce refusal and independent final replay. Run `node tests/authority-conformance.mjs` (Node/Python). See [authority contract](docs/XPO-006.md). No durable replay protection or production authority.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -44,4 +48,4 @@ Bounded exact exchange journal, singular-transition scar witness, historical sna
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first five reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first six reference experiments are supplied here. Subsequent stages remain proposed research directions.

@@ -21,3 +21,4 @@ jobs:
       - run: node tests/address-conformance.mjs
       - run: node tests/semantic-conformance.mjs
       - run: node tests/journal-conformance.mjs
+      - run: node tests/authority-conformance.mjs
