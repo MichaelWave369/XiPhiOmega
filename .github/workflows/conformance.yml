@@ -18,3 +18,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: node tests/capsule-conformance.mjs
+      - run: node tests/address-conformance.mjs
