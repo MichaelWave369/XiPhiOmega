@@ -20,3 +20,4 @@ jobs:
       - run: node tests/capsule-conformance.mjs
       - run: node tests/address-conformance.mjs
       - run: node tests/semantic-conformance.mjs
+      - run: node tests/journal-conformance.mjs
