@@ -23,3 +23,4 @@ jobs:
       - run: node tests/journal-conformance.mjs
       - run: node tests/authority-conformance.mjs
       - run: node tests/topology-conformance.mjs
+      - run: node tests/interop-conformance.mjs

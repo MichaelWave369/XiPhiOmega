@@ -40,6 +40,10 @@ Scoped Ed25519 permits for a single synthetic journal gate, revision/tip binding
 
 Seven degree-matched graphs, held-out scalar diffusion tasks, bounded adaptive rewiring and independent Python node-update verification. Run `node tests/topology-conformance.mjs`. See [experimental protocol and results](docs/XPO-007.md). Synthetic numerical work, not physical latency or general topology optimality.
 
+## XPO-008: cross-runtime reference interoperability
+
+Python proposal producer, Node semantic/admission adapter and independent Python return verifier; exact bounded journal exchange. Run `node tests/interop-conformance.mjs`. See [exchange contract](docs/XPO-008.md). Reference environments only; native upstream integration remains unverified.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -52,4 +56,4 @@ Seven degree-matched graphs, held-out scalar diffusion tasks, bounded adaptive r
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first seven reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first eight reference experiments are supplied here. Subsequent stages remain proposed research directions.
