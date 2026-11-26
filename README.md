@@ -24,6 +24,10 @@ Independent JavaScript and Python binary codecs, strict UTF-8, namespace separat
 
 Exact, bounded base-20,736 paths, independent namespaces and address kinds, decimal-string ordinals and separate identity locators. Node/Python conformance: `node tests/address-conformance.mjs`. See [address contract](docs/XPO-003.md). Addressability is not allocated state, topology or authority.
 
+## XPO-004: typed semantic adapters
+
+Synthetic versioned dialect registry, exact rational unit conversions, strict meaning checks and unknown-value preservation. Run `node tests/semantic-conformance.mjs` (Node/Python). See [semantic membrane](docs/XPO-004.md). These invented dialects are not native upstream adapters.
+
 ## Research ladder
 
 1. Exact scalar exchange
@@ -36,4 +40,4 @@ Exact, bounded base-20,736 paths, independent namespaces and address kinds, deci
 8. Cross-runtime conformance with consenting maintainers
 9. Integrated demonstration with independent verification
 
-The first three reference experiments are supplied here. Subsequent stages remain proposed research directions.
+The first four reference experiments are supplied here. Subsequent stages remain proposed research directions.
