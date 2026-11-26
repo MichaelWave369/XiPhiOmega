@@ -14,3 +14,7 @@ jobs:
         with:
           node-version: '22'
       - run: node tests/conformance.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: node tests/capsule-conformance.mjs
